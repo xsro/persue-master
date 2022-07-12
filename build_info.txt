@@ -1,0 +1,81 @@
+Darwin 192.168.0.11 21.5.0 Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:29 PDT 2022; root:xnu-8020.121.3~4/RELEASE_ARM64_T8101 arm64
+
+=================================
+git status
+---------------------------------
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+	modified:   _sidebar.md
+	deleted:    document/README.md
+	deleted:    document/SDRE.md
+	deleted:    document/courses.md
+	modified:   document/eVTOLs/Venturi.md
+	deleted:    document/find_LQR.md
+	deleted:    document/find_VTOL.md
+	deleted:    document/naca0012.md
+	modified:   script/copy.sh
+	modified:   script/transfer.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	document/VTOL.md
+	tex/README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+=================================
+git log -3
+---------------------------------
+commit 5476b4e5ea5b7e7f5b0ffcf8a82b0be84730aa11
+Author: Liu Y Cheng <xsro@foxmail.com>
+Date:   Thu Jul 7 21:20:22 2022 +0800
+
+    作为网页部署
+
+commit 947495493ba01447a647200adcb3b2ecd6ed1976
+Author: Liu Y Cheng <xsro@foxmail.com>
+Date:   Thu Jul 7 21:18:01 2022 +0800
+
+    venturi 设计简述
+
+commit fc6b408e15d90667af51d2dac8eb26e04a741a81
+Author: Liu Y Cheng <xsro@foxmail.com>
+Date:   Wed Jul 6 01:17:02 2022 +0800
+
+    学习
+
+=================================
+latexmk --version
+---------------------------------
+Latexmk, John Collins, 17 Mar. 2022. Version 4.77
+
+=================================
+xelatex --version
+---------------------------------
+XeTeX 3.141592653-2.6-0.999994 (TeX Live 2022)
+kpathsea version 6.3.4
+Copyright 2022 SIL International, Jonathan Kew and Khaled Hosny.
+There is NO warranty.  Redistribution of this software is
+covered by the terms of both the XeTeX copyright and
+the Lesser GNU General Public License.
+For more information about these matters, see the file
+named COPYING and the XeTeX source.
+Primary author of XeTeX: Jonathan Kew.
+Compiled with ICU version 70.1; using 70.1
+Compiled with zlib version 1.2.11; using 1.2.11
+Compiled with FreeType2 version 2.11.1; using 2.11.1
+Compiled with Graphite2 version 1.3.14; using 1.3.14
+Compiled with HarfBuzz version 3.4.0; using 3.4.0
+Compiled with libpng version 1.6.37; using 1.6.37
+Compiled with pplib version v2.05 less toxic i hope
+Using Mac OS X Core Text and Cocoa frameworks
+
+=================================
+biber --version
+---------------------------------
+biber version: 2.18
